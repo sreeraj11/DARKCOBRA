@@ -4,7 +4,7 @@ from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://telegra.ph/file/00f47c54ceda3944dc47c.jpg"
+PM_IMG = "https://telegra.ph/file/492098bb86cf553160543.jpg"
 pm_caption = "`Yo Bitch I am Alive🖕🖕 `"
 
 #@command(outgoing=True, pattern="^.alive$")

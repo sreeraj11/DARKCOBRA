@@ -29,7 +29,8 @@ USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth you
 USER_BOT_NO_WARN = ("`Hello ! This is` **MIKE'S**\n"
                     "`Private Messaging Security Protocol ⚠️`\n\n"
                     "**Currently My Boss**\n"
-                    f"{DEFAULTUSER} is Busy ! So Better Don't Spam His Inbox !\n\n")
+                    f"{DEFAULTUSER} is Busy ! So Better Don't Spam His Inbox !\n\n"
+                    f"{CUSTOM_MIDDLE_PMP} \n\n")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
@@ -211,7 +212,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 return
             except:
                 return
-        r = await event.client.send_file(event.chat_id, caption=USER_BOT_NO_WARN)
+        r = await event.client.send_file(event.chat_id,WARN_PIC ,caption=USER_BOT_NO_WARN)
         PM_WARNS[chat_id] += 1
         if chat_id in PREV_REPLY_MESSAGE:
             await PREV_REPLY_MESSAGE[chat_id].delete()

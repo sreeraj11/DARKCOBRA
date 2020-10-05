@@ -30,7 +30,7 @@ USER_BOT_NO_WARN = ("`Hello ! This is` **MIKE'S**\n"
                     "`Private Messaging Security Protocol ⚠️`\n\n"
                     "**Currently My Boss**\n"
                     f"{DEFAULTUSER} is Busy ! So Better Don't Spam His Inbox !\n\n"
-                    f"{CUSTOM_MIDDLE_PMP} \n\n")
+                    f"{CUSTOM_MIDDLE_PMP} ")
 
 
 if Var.PRIVATE_GROUP_ID is not None:

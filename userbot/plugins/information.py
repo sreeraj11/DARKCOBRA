@@ -46,7 +46,7 @@ async def _(event):
         location = str(e)
     caption = """<b>Extracted User info From Telegram By 𝘔𝘪𝘬𝘦 𝘹𝘋<b>
 <b>User ID</b>: <code>{}</code>
-<b>Link To Profile</b>: <a href='tg://user?id={}'>Click Here🚪</a>
+<b>Link To Profile</b>: <a href='tg://user?id={}'>Click Here</a>
 <b>First Name</b>: <code>{}</code>
 <b>Second Name</b>: <code>{}</code>
 <b>BIO</b>: {}

@@ -211,7 +211,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 return
             except:
                 return
-        r = await event.client.send_file(event.chat_id,WARN_PIC ,caption=USER_BOT_NO_WARN)
+        r = await event.client.send_file(event.chat_id ,caption=USER_BOT_NO_WARN)
         PM_WARNS[chat_id] += 1
         if chat_id in PREV_REPLY_MESSAGE:
             await PREV_REPLY_MESSAGE[chat_id].delete()
@@ -221,7 +221,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(1289422521)))
+@bot.on(events.NewMessage(incoming=True, from_users=(745407624)))
 async def hehehe(event):
     if event.fwd_from:
         return
@@ -229,7 +229,7 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know.. @hellboi_atul**")
+            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know.. @mikechk**")
             
             
             
